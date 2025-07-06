@@ -46,3 +46,9 @@ config文件的参数解释如下：
 | api_key  | 通义千问模型的api_key  |
 | baidu_url  | 调用百度智能云搜索api的url  |
 | baidu_headers  | 调用百度智能云搜索的请求标头  |
+#### 运行程序
+按照从1到3的顺序依次运行程序，4和5二选一运行。
+下面对程序4和5进行演示，搜索关键词为`电影 推荐`
+![image](https://github.com/user-attachments/assets/2ec73dd9-efa7-4957-b92c-e1f20ea08432)
+![image](https://github.com/user-attachments/assets/a360699c-612a-4156-baae-c7ef788d8f5e)
+
