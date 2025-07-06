@@ -26,3 +26,23 @@
 在右上方的侧边栏选择`网络`，找一个`名称`里的请求点开，在请求标头里找到自己的User-Agent以及Cookie，如果没有Cookie就换一个点开
 ![image](https://github.com/user-attachments/assets/96c52345-46a2-4775-b673-cd2b6174434c)
 #### 配置config文件
+完成环境配置后已经完成一大半啦，接下来把上面获得的内容复制到`config.json`的对应参数中，并根据个人喜欢配置其他参数即可。  
+config文件的参数解释如下：
+| 参数名称  | 参数含义 |
+| ------------- | ------------- |
+| keyword  | 搜索视频的关键词  |
+| output_dir  | 存放输出文件的目录  |
+| search_url  | 调用b站搜索api的url  |
+| get_cid_url  | 获取视频cid（分p视频）的url  |
+| get_subtitle_url  | 获取视频字幕的url  |
+| headers  | 发起请求的标头 |
+| cookie  | 发起请求的cookie（没有这个会被拦截） |
+| time_range  | 筛选视频发布时间：从若干天前到今天  |
+| max_pages  | 获取视频的页数（一页10个视频）  |
+| model_name  | bce-embedding-base_v1目录的完整路径  |
+| model_kwargs  | 模型参数  |
+| encode_kwargs  | 模型参数  |
+| model  | 调用通义千问模型的名称  |
+| api_key  | 通义千问模型的api_key  |
+| baidu_url  | 调用百度智能云搜索api的url  |
+| baidu_headers  | 调用百度智能云搜索的请求标头  |
