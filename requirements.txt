@@ -1,0 +1,5 @@
+langchain==0.3.26
+langchain_community==0.3.27
+langchain_core==0.3.68
+langchain_experimental==0.3.4
+Requests==2.32.4
