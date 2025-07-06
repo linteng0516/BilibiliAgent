@@ -1,23 +1,22 @@
 {
-    "keyword": "显示器 推荐",
+    "keyword": "前往b站自动搜索的关键词",
     "output_dir": "./data/",
     "search_url": "https://api.bilibili.com/x/web-interface/search/all/v2",
     "get_cid_url": "http://api.bilibili.com/x/player/pagelist",
     "get_subtitle_url": "https://api.bilibili.com/x/player/wbi/v2",
     "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
-        "Cookie": "buvid4=1EEE0F2E-BFFD-B810-7516-A61CFE82E15122178-024030914-GfhlPC8nqh9p9D5QoQQ1Tg%3D%3D; enable_web_push=DISABLE; buvid_fp_plain=undefined; DedeUserID=286228931; DedeUserID__ckMd5=ec0a67ff399ac45b; fingerprint=e9ed8c28a2670a769b4801fec6e0e2ec; buvid_fp=e9ed8c28a2670a769b4801fec6e0e2ec; enable_feed_channel=ENABLE; buvid3=B5BCC952-64CA-0595-4D55-2C2211E6E42264769infoc; b_nut=1745813064; _uuid=35253AFB-5610D-35FA-6228-CE4A1F1106E1E63684infoc; rpdid=|(Jk~||YYk)k0J'u~Rl)uJ|)); header_theme_version=OPEN; theme-tip-show=SHOWED; theme-avatar-tip-show=SHOWED; CURRENT_QUALITY=80; bp_t_offset_286228931=1085235457131806720; SESSDATA=715a7661%2C1767104830%2C88858%2A71CjAix-qAHnIGlyBwSW7SbiGducLmgjBsbDdNpo5_qpOQ57AtlsiYBWtkDxMWMYjyMssSVlR2bzZ3NnlxZW16UzFJUDdKaGVEbEJQblhoMXJTaE83M19COEVGT1VHb1o5eHYtVVdVTmZ5SjVQNmhHTGNUbW9jUmVvenRGWjljdG9vTHBSOTNSRUtRIIEC; bili_jct=f67190fa8d08a7fad12e7fa46e914ed5; sid=4i4yoh1i; bmg_af_switch=1; bmg_src_def_domain=i1.hdslb.com; bsource=search_bing; LIVE_BUVID=AUTO5217515937252500; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTE4NTI5MjUsImlhdCI6MTc1MTU5MzY2NSwicGx0IjotMX0.Q4WzWcbgkAIZwJ4Wfv83hlS42N5AO63X0mGhg3B28pg; bili_ticket_expires=1751852865; PVID=1; b_lsid=FBD1105410_197D344B65C; CURRENT_FNVAL=4048; home_feed_column=4; browser_resolution=730-750"
-    },
+        "User-Agent": "你的User-Agent",
+        "Cookie": "你的Cookie"
     "time_range": 360,
     "max_pages": 20,
-    "model_name": "E:\\agent\\bce-embedding-base_v1",
+    "model_name": "本项目中bce-embedding-base_v1文件夹的安装路径",
     "model_kwargs": {"device": "cpu"},
     "encode_kwargs": {"normalize_embeddings": false},
     "model": "qwen-max",
-    "api_key": "sk-9f3b8a39d87547258823eb591cc40ef0",
+    "api_key": "通义千问的api-key",
     "baidu_url": "https://qianfan.baidubce.com/v2/ai_search",
     "baidu_headers": {
-        "Authorization": "Bearer bce-v3/ALTAK-0Sy7yx0GuHvpNFca2AWne/9c9aac0d7e2f153550cfa540add0f02a6b107285",
+        "Authorization": "Bearer 百度千帆的api-key",
         "Content-Type": "application/json"
     }
 }
