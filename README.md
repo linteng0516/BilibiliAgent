@@ -25,3 +25,4 @@
 打开网页版b站（我是以账号登录状态打开的），右键选择`检查`或者按F12打开开发工具  
 在右上方的侧边栏选择`网络`，找一个`名称`里的请求点开，在请求标头里找到自己的User-Agent以及Cookie，如果没有Cookie就换一个点开
 ![image](https://github.com/user-attachments/assets/96c52345-46a2-4775-b673-cd2b6174434c)
+#### 配置config文件
