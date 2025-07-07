@@ -7,6 +7,8 @@
 ### 环境配置
 #### 必要库安装
 执行`pip install -r requirements.txt`安装必要库  
+#### 从huggingface下载文件
+传送门：https://huggingface.co/maidalun1020/bce-embedding-base_v1/tree/main
 #### api-key获取
 ##### 通义千问api-key获取
 新注册的用户有1,000,000个token的免费额度，只是学习用途的话完全够用了  
